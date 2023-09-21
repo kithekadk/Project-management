@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+a{
+    font-size: 40px;
+    color: green;
+}
+
+p{
+    background-color: blueviolet;
+    margin: 30px;
+    padding: 10px;
+}
+
+form{
+    background-color: brown;
+    width: 10%;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px ;
+    align-items: center;
+    font-size: 18px;
+}
+
+#submitrequest{
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    /* padding: 5px 15px 5px 15px; */
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: white solid 2px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 18px;
+}
+
+.signin{
+    padding: 5px 15px;
+    background-color: rgb(50, 69, 238);
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: solid 2px rgb(50, 69, 238);
+    margin-left: 5px;
+}
